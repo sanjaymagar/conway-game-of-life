@@ -122,9 +122,7 @@ const App: React.FC = () => {
                 setGrid(newGrid);
               }}
               style={{
-                backgroundColor: grid[rowIndex][colIndex]
-                  ? '#BFEAF5'
-                  : undefined,
+                backgroundColor: grid[rowIndex][colIndex] ? '#000' : undefined,
               }}
             />
           ))}
